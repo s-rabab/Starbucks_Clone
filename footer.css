@@ -1,0 +1,94 @@
+footer{
+    height: 450px;
+    padding: 24px 0;
+    color: black;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+.footer-container{
+    padding: 0 40px;
+    display: flex;
+    box-sizing: border-box; 
+    width: fit-content;
+    height: 480px;
+}
+.footer-container ul{
+    list-style-type: none;
+    margin: 0% auto;
+    padding: 0%;
+    max-width: 1440px;
+    letter-spacing: -0.16px;
+    line-height: 1.5;
+    padding-bottom: 24px; 
+    position: relative; 
+    font-size: 1rem;
+    flex-direction: column;
+}
+.footer-container ul li {
+    color: rgba(0,0,0,.56);
+    /* padding-top: 2.4rem; */
+    padding-bottom: 2.4rem; 
+    cursor: pointer;
+    margin: 0% auto;
+
+}
+.footer-container ul li:hover{
+    color: rgba(0,0,0, 0.87);
+}
+.links-container {
+    width: 190px;
+    margin-right: 50px;
+}
+footer h3 {
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.line {
+    /* padding: 0 40px; */
+    display: flex;
+    /* box-sizing: border-box; */
+    width: fit-content;
+    height: 600px;
+    padding-top: 2.2rem;
+    padding-bottom: 3.2rem;
+    color: rgb(19, 17, 17);
+    line-height: 200;
+    margin-bottom: 5rem;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+.media-icons, .five-terms {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.media-icons nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.media-icons nav ul li {
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.lem;
+    cursor: pointer;
+
+}
+.media ul li:hover{
+    color: rgba(0,0,0, 0.87);
+}
+.five-terms span {
+    text-transform: uppercase;
+    padding-left: 0;
+    font-weight: 700;
+    letter-spacing: 0.lem;
+    display: flex;
+    cursor: pointer;
+    /* height: 20%; */
+    align-items: left;
+    padding-bottom: 0%;
+    justify-content: left;
+    margin: 0 auto;
+}
